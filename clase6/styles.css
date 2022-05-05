@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.container{
+    background-color: blueviolet;
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: minmax(30px,300px) 200px minmax(60px,250px);
+    grid-template-rows: repeat(3, auto);
+}
+.item {
+    border:  5px solid rgb(0, 174, 255);
+    font-size: 2rem;
+}
